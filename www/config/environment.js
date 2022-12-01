@@ -15,19 +15,19 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//127.0.0.1/',
+      ApiUrl: 'https://mine.etherfair.org/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://127.0.0.1',
+      HttpHost: 'https://mine.etherfair.org/',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: '127.0.0.1',
+      StratumHost: 'mine.etherfair.org',
       StratumPort: 8008,
 
       // Fee and payout details
       PoolFee: '1%',
-      PayoutThreshold: '0.5 Ether',
+      PayoutThreshold: '1 Ether',
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 14.4
@@ -38,7 +38,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8080/'
+    ENV.APP.ApiUrl = 'https://mine.etherfair.org/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
