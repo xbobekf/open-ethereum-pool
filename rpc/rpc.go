@@ -13,7 +13,7 @@ import (
 	"sync"
 
 	"github.com/ethereumfair/go-ethereum/common"
-	"github.com/sammy007/open-ethereum-pool/util"
+	"github.com/xbobekf/open-ethereum-pool/util"
 )
 
 type RPCClient struct {

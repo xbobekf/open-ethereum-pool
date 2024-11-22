@@ -1,4 +1,4 @@
-module github.com/sammy007/open-ethereum-pool
+module github.com/xbobekf/open-ethereum-pool
 
 go 1.19
 
